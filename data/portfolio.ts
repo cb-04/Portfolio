@@ -5,7 +5,7 @@ export const PORTFOLIO_DATA = {
   name: "Hi, I'm Chandrabali!",
   title: "In Bengali, I’m Chandrabali (চন্দ্রাবলী).\n“Chandra” (like chawn-dra),“bali” (like bowl-ee).",
   bio: "A pre-final year student at Indian Institute of Technnology Kharagpur with deep interest in anything tech. I love building fun and meaningful apps with React Native.",
-  avatar: "my_photo.jpeg", 
+  avatar: "./my_photo.jpeg", 
 
   // About Section
   about: {
@@ -21,7 +21,7 @@ export const PORTFOLIO_DATA = {
       position: "Research Internship",
       start: "May 2025",
       end: "July 2025",
-      logoUrl:"/oulu_logo.jpeg",
+      logoUrl:"./oulu_logo.jpeg",
       href: "https://www.oulu.fi/en",
       description: "Implemented SLAM-based path planning system and boosted its efficiency by using the Beetle Antennae Search (BAS) algorithm, enabling adaptive real-time navigation in unknown environments.Integrated BAS with SLAM to optimize trajectory decisions and minimize localization error during exploration.Delivered a robust framework for autonomous robots to map and plan paths in dynamic, GPS-denied spaces.",
     },
@@ -34,14 +34,14 @@ export const PORTFOLIO_DATA = {
       degree: " Integrated dual-degree in Electronics and Electrical Communication Engineering with specialization in Vision and Intelligent Systems",
       start: "2022",
       end: "2027",
-      logoUrl: "/IIT_Kharagpur_Logo.svg",
+      logoUrl: "./IIT_Kharagpur_Logo.svg",
       href: "https://www.iitkgp.ac.in/",},
     {
       institution: "Garden High School, Kolkata",
       degree: "Science & Mathematics",
       start: "2008",
       end: "2022",
-      logoUrl: "/GHS-Logo.jpg",
+      logoUrl: "./GHS-Logo.jpg",
       href: "https://gardenhighschool.in/",
     },
     // Add more education entries

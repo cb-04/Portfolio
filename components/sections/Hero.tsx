@@ -1,4 +1,4 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import { PORTFOLIO_DATA } from "@/data/portfolio";
 
 export default function Hero() {
