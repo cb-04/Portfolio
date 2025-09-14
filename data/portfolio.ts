@@ -49,8 +49,17 @@ export const PORTFOLIO_DATA = {
 
   // Skills Section
   skills: [
-    { title: "Languages & Frontend", list: ["TypeScript", "JavaScript", "React", "Next.js"] },
-    { title: "Backend & DevOps", list: ["Node.js", "Flask", "MySQL", "Docker"] },
+    { title: "Languages & Frontend", 
+      list: [
+        {name:"TypeScript", src:"./typescript.svg"},
+        {name:"JavaScript", src:"./javascript.svg"}, 
+        {name:"React", src:"./react.svg"},
+        {name:"Next.js", src:"./nextjs.svg"}] },
+    { title: "Backend & DevOps", 
+      list: [
+        {name:"Node.js", src:"./nodejs.svg"},
+        {name:"MySQL", src:"./mysql.svg"},
+        {name:"Docker", src:"./docker.svg"} ] },
     // Add more skill categories
   ],
 
