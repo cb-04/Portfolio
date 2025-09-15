@@ -67,6 +67,7 @@ export default function TechStack() {
           </div>
         </BlurFade>
       </div>
+      <div className="h-20" />
     </section>
   );
 }

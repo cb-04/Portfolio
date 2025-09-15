@@ -70,6 +70,7 @@ export default function Projects() {
             ))}
           </div>
         </BlurFade>
+        <div className="h-18" />
       </div>
     </section>
   );

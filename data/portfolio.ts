@@ -97,5 +97,6 @@ export const PORTFOLIO_DATA = {
     email: "chandrabalibiswas04@gmail.com",
     linkedin: "https://www.linkedin.com/in/chandrabali-biswas-18b48a269/",
     github: "https://github.com/cb-04",
+    medium: "https://medium.com/@chandrabalibiswas04",
   },
 };

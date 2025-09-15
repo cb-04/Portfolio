@@ -5,6 +5,7 @@ import Education from "@/components/sections/Education";
 import Work from "@/components/sections/Work";
 import TechStack from "@/components/sections/TechStack";
 import Projects from "@/components/sections/Projects";
+import Contact from "@/components/sections/Contact";
 
 export default function HomePage() {
   return (
@@ -15,6 +16,7 @@ export default function HomePage() {
       <Work />
       <TechStack />
       <Projects />
+      <Contact />
     </main>
   );
 }

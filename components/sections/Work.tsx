@@ -109,6 +109,7 @@ function WorkCard({ job }: { job: typeof PORTFOLIO_DATA.work[0] }) {
           </motion.div>
         )}
       </div>
+      <div className="h-20" />
     </Link>
   );
 }
