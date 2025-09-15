@@ -51,6 +51,9 @@ export const PORTFOLIO_DATA = {
   skills: [
     { title: "Languages & Frontend", 
       list: [
+        {name:"C", src:"./c.svg"},
+        {name:"C++", src:"./c++.svg"},
+        {name:"Python", src:"./python.svg"},
         {name:"TypeScript", src:"./typescript.svg"},
         {name:"JavaScript", src:"./javascript.svg"}, 
         {name:"React", src:"./react.svg"},
@@ -66,11 +69,25 @@ export const PORTFOLIO_DATA = {
   // Projects Section
   projects: [
     {
-      name: "MEO-Bench",
+      name: "Algo-Visualizer",
+      date: "2025",
+      description: "An interactive web app for visualizing algorithms for sorting and finding shortest paths.",
+      tech: ["React", "Javascript", "CSS"],
+      source: "https://github.com/cb-04/Algo-visualizer",
+    },
+    {
+      name: "Chromaverse",
+      date: "2025",
+      description: "A full-stack drawing application that lets users sketch, save, and share artwork securely.",
+      tech: ["Javascript", "Node.js", "Express", "Firebase", "Docker"],
+      source: "https://github.com/cb-04/Chromaverse",
+    },
+    {
+      name: "Heap Memory Management",
       date: "2024",
-      description: "A benchmark to evaluate an LLM's ability to generate audience-captive medical explanations...",
-      tech: ["Python", "LLM", "Medical AI"],
-      source: "https://github.com/meo-bench",
+      description: "A custom memory-management library that delivers fast, low-fragmentation dynamic allocation with a clean, type-safe API.",
+      tech: ["C"],
+      source: "https://github.com/cb-04/Heap_Allocator",
     },
     // Add more projects
   ],

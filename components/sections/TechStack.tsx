@@ -38,7 +38,7 @@ export default function TechStack() {
 
                 {/* Motion wrapper for left-to-right loop */}
                 <motion.div
-                  className="flex gap-10 w-[300px] mx-auto"
+                  className="flex gap-10 w-[400px] mx-auto"
                   animate={{ x: ["-100%", "0%"] }}
                   transition={{
                     repeat: Infinity,
