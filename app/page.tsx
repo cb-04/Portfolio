@@ -5,6 +5,7 @@ import Education from "@/components/sections/Education";
 import Work from "@/components/sections/Work";
 import TechStack from "@/components/sections/TechStack";
 import Projects from "@/components/sections/Projects";
+import MindShelf from "@/components/sections/MindShelf";
 import Contact from "@/components/sections/Contact";
 
 export default function HomePage() {
@@ -16,6 +17,7 @@ export default function HomePage() {
       <Work />
       <TechStack />
       <Projects />
+      <MindShelf />
       <Contact />
     </main>
   );

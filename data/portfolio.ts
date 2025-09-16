@@ -28,6 +28,46 @@ export const PORTFOLIO_DATA = {
     // Add more work entries
   ],
 
+  books: [
+    {
+       title: "A Thousand Splendid Suns",
+       author: "Khaled Hosseini",
+       cover: "./thousand.jpg",
+       review: "Found while snooping through my mom's collection and then it stuck with me forever. The quiet brutality of battlegrounds felt so painfully current."
+    },
+    {
+      title: "10 Minutes 38 Seconds in This Strange World",
+      author: "Elif Shafak",
+      cover: "./10minutes.jpg",
+      review: "A hauntingly beautiful exploration of memory and identity. Heartbreaking."
+    },
+    {
+      title: "Bastard of Istanbul",
+      author: "Elif Shafak",
+      cover: "./bastard.jpg",
+      review: "Family secrets, cultural clashes, and the power of storytelling. I am in such deep awe of writers who can craft such narratives." 
+    },
+    {
+      title: "And Then There Were None",
+      author: "Agatha Christie",
+      cover: "./andthen.jpg",
+      review: "Mysteries and crime thrillers get me hooked. This one is a classic whodunit that made me jump into this rabbit hole."
+    },
+    {
+      title: "ABC Murders",
+      author: "Agatha Christie",
+      cover: "./abc.jpg",
+      review: "Another brilliant Christie. Saw the show too, but it didn’t do her clever way of building fear justice… I really love the story so much."
+    },
+    {
+      title: "Crooked House",
+      author: "Agatha Christie",
+      cover: "./crooked.jpg",
+      review: "Told you we’re stuck in this rabbit hole for life—Christie always finds a new way to surprise you. Here’s another must-read."
+    }
+    
+  ],
+
   education: [
     {
       institution: "Indian Institute of Technology Kharagpur",
