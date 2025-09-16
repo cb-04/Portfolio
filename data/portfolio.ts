@@ -52,7 +52,7 @@ export const PORTFOLIO_DATA = {
     { title: "Languages & Frontend", 
       list: [
         {name:"C", src:"./c.svg"},
-        {name:"C++", src:"./c++.svg"},
+        {name:"C++", src:"./cpp.svg"},
         {name:"Python", src:"./python.svg"},
         {name:"TypeScript", src:"./typescript.svg"},
         {name:"JavaScript", src:"./javascript.svg"}, 
@@ -62,7 +62,9 @@ export const PORTFOLIO_DATA = {
       list: [
         {name:"Node.js", src:"./nodejs.svg"},
         {name:"MySQL", src:"./mysql.svg"},
-        {name:"Docker", src:"./docker.svg"} ] },
+        {name:"Docker", src:"./docker.svg"},
+        {name:"Git", src:"./git.svg"},
+        {name:"GitHub", src:"./github.svg"} ] },
     // Add more skill categories
   ],
 

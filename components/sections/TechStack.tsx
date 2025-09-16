@@ -50,16 +50,15 @@ export default function TechStack() {
                   {group.list.concat(group.list).map((skill, idx) => (
                     <div key={idx} className="flex flex-col items-center">
                       <Image
-                        src={skill.src}      // e.g. "/icons/react.png"
+                        src={skill.src}
                         alt={skill.name}
-                        width={60}
-                        height={60}
-                        className="object-contain"
+                        width={64}
+                        height={64}
+                        className="object-contain w-16 h-16"  // force square footprint
                       />
-                      <span className="mt-2 text-sm text-gray-400">
-                        {skill.name}
-                      </span>
+                      <span className="mt-2 text-sm text-gray-400">{skill.name}</span>
                     </div>
+
                   ))}
                 </motion.div>
               </div>
