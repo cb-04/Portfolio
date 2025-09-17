@@ -38,7 +38,7 @@ export default function TechStack() {
 
                 {/* Motion wrapper for left-to-right loop */}
                 <motion.div
-                  className="flex gap-10 w-[400px] mx-auto"
+                  className="flex gap-10 w-full max-w-2xl mx-auto"
                   animate={{ x: ["-100%", "0%"] }}
                   transition={{
                     repeat: Infinity,
@@ -48,7 +48,7 @@ export default function TechStack() {
                 >
                   {/* duplicate list for seamless loop */}
                   {group.list.concat(group.list).map((skill, idx) => (
-                    <div key={idx} className="flex flex-col items-center">
+                    <div key={idx} className="flex flex-col items-center min-w-max">
                       <Image
                         src={skill.src}
                         alt={skill.name}

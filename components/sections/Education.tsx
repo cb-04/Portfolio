@@ -44,14 +44,15 @@ export default function Education() {
 
                   {/* Text content */}
                   <div className="flex-1">
-                    <div className="flex items-center justify-between">
-                      <h3 className="text-lg font-semibold text-gray-900">
-                        {edu.institution}
-                      </h3>
-                      <span className="text-sm text-gray-500">
-                        {edu.start} – {edu.end}
-                      </span>
-                    </div>
+                    <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 sm:gap-0">
+                    <h3 className="text-lg font-semibold text-gray-900">
+                      {edu.institution}
+                    </h3>
+                    <span className="text-sm text-gray-500">
+                      {edu.start} – {edu.end}
+                    </span>
+                  </div>
+
 
                     <p className="mt-2 text-sm font-medium text-gray-700">
                       {edu.degree}

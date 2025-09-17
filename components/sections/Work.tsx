@@ -62,32 +62,33 @@ function WorkCard({ job }: { job: typeof PORTFOLIO_DATA.work[0] }) {
 
           {/* Text content */}
           <div className="flex-1 ml-3">
-            <div className="flex items-center justify-between">
-              <h3 className="text-lg font-semibold text-gray-900 flex items-center gap-2">
-                {job.company}
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 sm:gap-0">
+            <h3 className="text-lg font-semibold text-gray-900 flex items-center gap-2">
+              {job.company}
 
-                {job.description && (
-                  <button
-                    type="button"
-                    onClick={(e) => {
-                      e.preventDefault(); 
-                      setExpanded(!expanded);
-                    }}
-                    className="text-gray-500 hover:text-gray-700 transition"
-                  >
-                    <ChevronDown
-                      className={`h-4 w-4 transform transition-transform duration-300 ${
-                        expanded ? "rotate-180" : "rotate-0"
-                      }`}
-                    />
-                  </button>
-                )}
-              </h3>
+              {job.description && (
+                <button
+                  type="button"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setExpanded(!expanded);
+                  }}
+                  className="text-gray-500 hover:text-gray-700 transition"
+                >
+                  <ChevronDown
+                    className={`h-4 w-4 transform transition-transform duration-300 ${
+                      expanded ? "rotate-180" : "rotate-0"
+                    }`}
+                  />
+                </button>
+              )}
+            </h3>
 
-              <span className="text-sm text-gray-500">
-                {job.start} – {job.end}
-              </span>
-            </div>
+            <span className="text-sm text-gray-500">
+              {job.start} – {job.end}
+            </span>
+          </div>
+
 
             <p className="mt-2 text-sm font-medium text-gray-700">
               {job.position}
